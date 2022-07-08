@@ -1,1 +1,43 @@
 /* Your code here */
+.mainGrid{
+    display:grid;
+    grid-template-columns: repeat(9,1fr); 
+    width:416px;
+    height:416px;
+
+      
+}
+.reset{
+   margin-bottom: 10px;
+   width: 80px;
+   height: 20px;
+}
+#parentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.square{
+    margin-right : 2px;
+    width : 40px;
+    height : 40px;
+    border : solid 1px #0000FF;
+   
+}
+
+.redBg{
+    background-color : red;
+}
+
+.greenBg{
+    background-color : green;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.reset{
+    text-align: center;
+}
